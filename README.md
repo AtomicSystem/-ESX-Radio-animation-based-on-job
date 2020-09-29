@@ -1,5 +1,4 @@
 [ESX] RADIO ANIMATION SYSTEM BASED ON JOBS FOR DUMMIES
-Radio animation system based on jobs | ESX framework
 
 Dependencies:
 - ESX / EXM (https://github.com/esx-framework/es_extended/tree/v1-final) or (https://github.com/extendedmode/extendedmode)
