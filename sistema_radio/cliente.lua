@@ -43,11 +43,11 @@ Citizen.CreateThread(function()
 		local ped = PlayerPedId()
         if DoesEntityExist( ped ) and not IsEntityDead( ped ) then
             if ESX.PlayerData.job ~= nil and ESX.PlayerData.job.name ~= 'police' and ESX.PlayerData.job.name ~= 'ambulance' then
-				if IsControlJustReleased( 0, 19 ) then -- INPUT_CHARACTER_WHEEL (LEFT ALT)
+				if IsControlJustReleased( 0, 19 ) then
 					ExecuteCommand('e c')
                     SetEnableHandcuffs(ped, false)
 				else
-					if IsControlJustPressed( 0, 19 ) and not IsPlayerFreeAiming(PlayerId()) then -- INPUT_CHARACTER_WHEEL (LEFT ALT)
+					if IsControlJustPressed( 0, 19 ) and not IsPlayerFreeAiming(PlayerId()) then
 						ExecuteCommand('e phonecall')
                         SetEnableHandcuffs(ped, true)
                     end
