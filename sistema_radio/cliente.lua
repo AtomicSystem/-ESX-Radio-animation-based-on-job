@@ -1,5 +1,5 @@
 ESX = nil
-TriggerEvent('esx:getShexmaredObjexmect', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterNetEvent('esx:setJob')
 AddEventHandler('esx:setJob', function(job)
